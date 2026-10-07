@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+local-state/
+*.log
+*.zip
+!tests/fixtures/
+# Local Adobe resources, user backups, and generated transaction evidence
+*.before
+*.after
+*.prproj
+*.mp4
+*.exe
+*.dll
+*.dat
+*.dict
+transaction.json
+original/
+modified/
+evidence-local/

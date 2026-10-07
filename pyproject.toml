@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adobe-language-switcher"
+version = "0.1.0"
+description = "Reversible local Adobe UI language switching for Windows"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/HiiragiNemu/adobe-language-switcher"
+Issues = "https://github.com/HiiragiNemu/adobe-language-switcher/issues"
+
+[project.scripts]
+adobe-language-switcher = "adobe_language_switcher.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["adobe_language_switcher*"]
